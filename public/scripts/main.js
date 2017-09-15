@@ -2,15 +2,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // create and open banner events
     var logo = document.getElementById('logo');
-    var args = { content: 'Hello World!' };
+    var args = { content: 'Hello Paperless Post!' };
 
-    var helloUrban = new Banner(args);
+    var hello = new Banner(args);
 
     logo.addEventListener('click', function() {
-        helloUrban.open();
+        hello.open();
     });
-    // end
 
-    helloUrban.init();
-    console.log("%c  Thanks World!  ", "color: #ffffff; font-family: helvetica, sans-serif; font-size: x-large; font-weight: bold; background: #8a8bc9");
+    hello.init();
 });

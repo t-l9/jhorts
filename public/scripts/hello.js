@@ -11,8 +11,8 @@
         // default properties
         var defaults = {
             bgColor: '#41aec9', // blue
-            content: "Hi World, thanks for checking out my app!",
-            className: "helloUrban",
+            content: " Thanks for checking out my app!",
+            className: "hello-default",
         };
 
         // create this.options
@@ -75,7 +75,7 @@
         this.banner.appendChild(this.close);
 
         container = document.createElement('div');
-        container.className = 'helloUrban-container';
+        container.className = 'hello-container';
         container.innerHTML = message;
 
         this.banner.appendChild(container);

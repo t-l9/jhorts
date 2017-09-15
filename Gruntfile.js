@@ -15,7 +15,7 @@ module.exports = function(grunt) {
 			scripts: {
 				src: [
 					'public/scripts/main.js',
-					'public/scripts/helloUrban.js'
+					'public/scripts/hello.js'
 				],
 				dest: 'public/scripts/build/scripts.js'
 			}

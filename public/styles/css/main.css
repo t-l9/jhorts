@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @media only screen and (max-width: 768px) {
-  body.timlauter .helloUrban button.collapse {
+  body.timlauter .hello-default button.collapse {
     position: absolute;
     top: 0;
     left: 0;
@@ -218,7 +218,7 @@ body.timlauter main {
       font-weight: 700;
       text-transform: uppercase; }
 
-.helloUrban {
+.hello-default {
   color: #fff;
   font-weight: 700;
   font-size: 1.25em;
@@ -236,7 +236,7 @@ body.timlauter main {
   -o-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out; }
 
-.helloUrban.open {
+.hello-default.open {
   top: 0px;
   opacity: 1;
   z-index: 999;
@@ -245,7 +245,7 @@ body.timlauter main {
   -o-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out; }
 
-.helloUrban button {
+.hello-default button {
   position: absolute;
   left: 0;
   font-size: 24px;
@@ -263,7 +263,7 @@ body.timlauter main {
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
-  .helloUrban button:hover {
+  .hello-default button:hover {
     background: #c0392b; }
 
 body.timlauter {
